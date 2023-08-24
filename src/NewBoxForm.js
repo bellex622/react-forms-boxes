@@ -41,7 +41,6 @@ function NewBoxForm({addBox}) {
 
       <label htmlFor="width">Width:</label>
       <input
-        type="width"
         id="width"
         name="width"
         value={formData.width}
@@ -50,7 +49,6 @@ function NewBoxForm({addBox}) {
 
       <label htmlFor="backgroundColor">Background Color:</label>
       <input
-        type="backgroundColor"
         id="backgroundColor"
         name="backgroundColor"
         value={formData.backgroundColor}
