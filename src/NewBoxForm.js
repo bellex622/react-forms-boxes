@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Box from './Box';
 
 
+
 const initialState = { height: "", width: "", backgroundColor: "" };
 
 /** Form for creating a new box to add to a list.
@@ -11,7 +12,7 @@ const initialState = { height: "", width: "", backgroundColor: "" };
  *
  * NewBoxForm -> Box
  */
-function NewBoxForm() {
+function NewBoxForm({addBox}) {
   const [formData, setFormData] = useState(initialState);
 
   function handleSubmit(evt) {

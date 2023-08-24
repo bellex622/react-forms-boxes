@@ -10,6 +10,7 @@ import React from "react";
  * Return a single box with bgc, width and height
  */
 function Box({backgroundColor, width, height}){
+  console.log({backgroundColor, width, height});
   const style = {
     backgroundColor:backgroundColor,
     width:width,
