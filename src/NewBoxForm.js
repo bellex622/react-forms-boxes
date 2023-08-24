@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Box from './Box'
+import Box from './Box';
 
 
 const initialState = { height: "", width: "", backgroundColor: "" };
@@ -61,3 +61,5 @@ function NewBoxForm() {
 
 
 }
+
+export default NewBoxForm;
